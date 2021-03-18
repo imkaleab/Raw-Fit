@@ -1,0 +1,14 @@
+com/rawfit/ReactNativeFlipper.java
+ com.rawfit.ReactNativeFlipper
+ com.rawfit.ReactNativeFlipper$1
+ com.rawfit.ReactNativeFlipper$2
+ com.rawfit.ReactNativeFlipper$2$1
+com/rawfit/MainActivity.java
+ com.rawfit.MainActivity
+com/rawfit/MainApplication.java
+ com.rawfit.MainApplication
+ com.rawfit.MainApplication$1
+com/rawfit/BuildConfig.java
+ com.rawfit.BuildConfig
+com/facebook/react/PackageList.java
+ com.facebook.react.PackageList
