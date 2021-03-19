@@ -36,26 +36,26 @@ class Button extends React.Component<Props> {
 
 const styles = StyleSheet.create({
   container: {
-    width: "100%",
+    flex: 1,
+    backgroundColor: 'skyblue',
     alignItems: "center",
+    alignContent: "space-around",
+    justifyContent: "flex-start"
+  },
+  logo: {
+    height: "80%",
+    width: '100%',
+    resizeMode: "contain",
+    marginTop: -145,
+    borderTopWidth: 0,
+    alignSelf: "center"
+  },
+  form: {
+    flex: 1,
     justifyContent: "center",
-    backgroundColor: colors.DODGER_BLUE,
-    marginBottom: 12,
-    paddingVertical: 12,
-    borderRadius: 4,
-    borderWidth: StyleSheet.hairlineWidth,
-    borderColor: "rgba(255,255,255,0.7)"
-  },
-  containerEnabled: {
-    opacity: 1
-  },
-  containerDisabled: {
-    opacity: 0.3
-  },
-  text: {
-    color: colors.WHITE,
-    textAlign: "center",
-    height: 20
+    width: "80%",
+    height: 100,
+    marginTop: -245,
   }
 });
 
