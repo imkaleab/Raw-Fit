@@ -124,20 +124,25 @@ class LoginScreen extends React.Component<{}, State> {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#c5f542',
+    backgroundColor: 'skyblue',
     alignItems: "center",
-    justifyContent: "space-between"
+    alignContent: "space-around",
+    justifyContent: "flex-start"
   },
   logo: {
-    flex: 2,
-    width: "100%",
+    height: "80%",
+    width: '100%',
     resizeMode: "contain",
+    marginTop: -145,
+    borderTopWidth: 0,
     alignSelf: "center"
   },
   form: {
-    flex: 3,
+    flex: 1,
     justifyContent: "center",
-    width: "80%"
+    width: "80%",
+    height: 100,
+    marginTop: -245,
   }
 });
 
